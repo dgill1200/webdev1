@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F1F1;
+}
+.header{
+   text-align: center;
+    padding: 20px;
+    outline: 1px black solid;
+}
+/*--- Styling for nav BEGIN ---*/
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/* ---Stlying for nav END ---*/
+
+/*--- styling for the mainbody of index.html BEGIN --- */
+.left-column{
+    float: left;
+    width: 75%;
+    outline: 1px solid #333;
+}
+.right-column{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.box{
+   background-color: white;
+   margin-top: 20px;
+   padding: 20px;
+   outline:1px solid #333 ;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column,.column-mid,.column-right{
+        width: 100%;
+    }
+}
+/*--- styling for the mainbody of index.html END --- */
+
+/*--- Styling for Footer BEGIN -- */
+.foot{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    outline: 5px solid black;
+}
+/*--- Styling for Footer END -- */
+
+.box img{
+    width: 250px;
+    float: left;
+    height: auto;
+}
+h3{
+   float: left;
+   padding: 0px 15px 0px 15px;
+}
+h1{
+    padding: 0px 15px 0px 15px;
+}
+h2{
+    padding: 0px 15px 0px 15px;
+}
+
+
+div p {
+    padding:0px 15px 0px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
